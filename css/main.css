@@ -1,0 +1,43 @@
+body{
+    background-color: darkblue;
+}
+    .container {
+        display: inline-block;
+        background-color: darkkhaki;
+        width: 900px;
+        margin-left: calc(50% - 450px);
+        margin-top: 150px;
+    }
+        .left { 
+            display: inline-block;
+            background-color: darksalmon;
+            width: 50%;
+            float: left;
+        }
+            .right {
+                width: 40%;
+                display: inline-block;
+                background-color: deeppink;
+                float: right;
+                border: 1px solid #cccccc;
+                border-radius: 10px;
+            }
+                .form {
+                    display: inline-block;
+                    width: 100%;
+                }
+                    .form-row{
+                        display: inline-block;
+                    width: 100%;
+                }
+                        .main-title{
+                            display: inline-block;
+                            width: 100%;
+                            text-align: center;   
+                        }
+                .form-bottom {
+                    display: inline-block;
+                    width: 100%;
+                }
+      
+       
