@@ -8,10 +8,21 @@ body{
         margin-left: calc(50% - 450px);
         margin-top: 150px;
     }
+    .konteineris{
+        isplay: inline-block;
+        width: 900px;
+        margin-left: calc(50% - 450px);
+    }
         .left { 
             display: inline-block;
             width: 50%;
             float: left;
+        }
+        .kaire{
+            display: inline-block;
+            width: 50%;
+            float: left;
+            margin-top: 200px;
         }
             .right {
                 width: 40%;
@@ -20,6 +31,15 @@ body{
                 float: right;
                 border: 1px solid #cccccc;
                 border-radius: 10px;
+            }
+            .desine{
+                width: 40%;
+                display: inline-block;
+                padding: 20px;
+                float: right;
+                border: 1px solid #cccccc;
+                border-radius: 10px;
+                margin-top: 50px;
             }
                 .form {
                     display: inline-block;
@@ -55,6 +75,8 @@ body{
                             width: 100%;
                             padding: 5px;
                             padding-left: 20px;
+                            border-radius: 5px;
+                            border: 1px solid #dee2e6
                         }
                         .form-row > .fa {
                             position: absolute;
@@ -71,6 +93,10 @@ body{
                         .forgot-link {
                             float: right;
                         }
+                        .Terms{
+                            display: inline-block;
+                        }
+                        
                         .btn{
                             width: 100%;
                         }
